@@ -1,0 +1,30 @@
+body {
+    width: 100%;
+    float: left;
+}
+  
+.sidepane1 {
+    width: 24%;
+    float: left;
+    height: 100vh;
+    background-color: bisque;
+}
+.sidepane2 {
+    width: 24%;
+    float: left;
+    height: 100vh;
+    background-color: bisque;
+}
+
+.mainpane {
+    width: 50%;
+    float: left;
+    height: 100vh;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+p {
+    padding-top: 25px;
+    text-align: left;
+}
