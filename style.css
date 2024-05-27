@@ -28,3 +28,44 @@ p {
     padding-top: 25px;
     text-align: left;
 }
+
+.code {
+    border: 2px solid rgb(199, 197, 197);
+    background-color: #1a1a1a;
+    color: #ffffff;
+    text-align: left;
+}
+
+.bothing {
+    bottom:0;
+    text-align:center;
+}
+
+/*arrow*/
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+  
+  .up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }
+  
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  } 
+
